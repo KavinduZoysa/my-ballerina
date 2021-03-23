@@ -1,0 +1,11 @@
+[package]
+org = "kavindu"
+name = "zip_lib"
+version = "0.1.0"
+
+[build-options]
+observabilityIncluded = true
+[[platform.java11.dependency]]
+groupId = "org.yaml"
+artifactId = "snakeyaml"
+version = "1.25"
